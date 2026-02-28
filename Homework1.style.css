@@ -6,3 +6,55 @@ Date Last Edited: 02/15/2026
 Version: 1.0 
 Description: CSS for index.html
 */ 
+
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="homework1.css"> 
+  <title>Wu Medical Patient Registration Form</title> 
+  <style>
+    body {
+      background-color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #A8E6CE;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      margin: 20px 0;
+      border-collapse: collapse; 
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #B2EBF2;
+    }
+
+    th {
+      background-color: #B2EBF2;
+    }
+
+    input[type="SUBMIT"], input[type="RESET"] {
+      background-color: #A8E6CE;
+      border: none;
+      color: #333;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    input[type="SUBMIT"]:hover, input[type="RESET":hover {
+      background-color: #A8E6CE;
+    }
+
+    #footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #A8E6CE;
+    }
+  </style>
+</head>
